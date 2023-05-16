@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+h5 {
+  color: rgb(22, 113, 198);
+}
+
+h6 {
+  font-weight: normal;
+  color: rgb(196, 190, 190);
+}
+
+.container p {
+  color: #fff;
+}
+
+.card-img-top {
+  border-radius: 50%;
+  height: 100px !important;
+  width: 100px !important;
+  position: relative;
+  left: 75px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 30px;
+}
+
+.card {
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 100px !important;
+  background-color: rgb(28, 28, 28);
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.bi {
+  font-size: 15px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-img-top {
+    left: 48px !important;
+  }
+}/*# sourceMappingURL=main.css.map */
